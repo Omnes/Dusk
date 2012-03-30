@@ -1,0 +1,34 @@
+**************************************************************************************************************************
+Fixa highlights för interactiva object
+Ai för monstret
+startmeny och "cutscenes" aka bildspel
+blockaderna
+alla diverse events (tex förstörd mainhall, och allmänt läskiga saker) //får vänta tills modeller finns
+fixa så att dörrar kan smäller upp
+fixa movement scriptet så man inte kan gå upp för vissa väggar
+fler notes
+
+innan sportlovet
+triggers för journalen
+se till att alla dörrar låses/upp vid rätt tid
+NYCKEL SPAWNAS EFTER KNACKNINGEN
+kofot i slöjdsal för knacknings dörren
+ingen ficklampa i början, plockas upp
+
+
+
+Changelog 28/02
+bytt ut alla dörrar till prefabs //tog ett tag men drar ner på antal meshes vi behöver ha med och gör det enklare att lägga på texturer
+gjorde några mindre ändringar i ficklamps scriptet samnt la ut en på scenen som man måste plocka upp för att kunna använda ficklampan
+
+Changelog 29/02
+satte ut majoriteten utav journal triggersupp till att du ska hämta kofoten
+ändrade hopp höjden och upptäkte att kan kan glitcha sig upp för vissa väggar(måste fixas)
+gjorde så att sågen spawnas efter man hittat journalen för att förhindra att man fortsätter utan den
+dörrarna till höger är låsta tills man försökt öppna "knacknings dörren" (vad fan ska vi kalla den?) 
+satt ut lite place holder kuber som bord sålänge så det ser mindre tomt ut
+fixade så man kan dra runt "stenarna" (behövs modeller för dem)
+
+Changelog 11/3
+gjorde en temporär lösning för blockaderna (har varit fast där för länge)
+testade den nya NavMesh functionen i unity och gjorde en navmesh för den kommande ain (behövs fin justreras lite)
